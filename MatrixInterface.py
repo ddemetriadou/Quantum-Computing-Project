@@ -1,7 +1,18 @@
+"""
+
+"""
+
 from abc import ABC, abstractmethod
 import numpy as np
 
-class MatrixElement(object): 
+class MatrixElement(object):
+    """
+    descriptionn /.....
+
+    :param i: (int) this is the ith dimension of
+    :param j: (int) this i j dimension
+    :return: f is the string
+    """ 
     def __init__(self, i, j, val):
         self.i = i
         self.j = j
